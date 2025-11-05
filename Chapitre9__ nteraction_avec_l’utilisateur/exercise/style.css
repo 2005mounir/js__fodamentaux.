@@ -1,0 +1,42 @@
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  
+  ul li:nth-child(1) {
+    color: blue;
+    font-family: Arial;
+  }
+  
+  
+  ul li:nth-child(2) {
+    color: red;
+    font-family: 'Courier New';
+  }
+  
+  
+  ul li:nth-child(3) {
+    color: green;
+    font-family: Georgia;
+  }
+  
+  
+  ul li:nth-child(4) {
+    color: purple;
+    font-family: Verdana;
+  }
+  
+  
+  ul li:nth-child(5) {
+    color: orange;
+    font-family: Tahoma;
+  }
+  
+  
+  ul li:nth-child(6n+1) { color: blue; font-family: Arial; }
+  ul li:nth-child(6n+2) { color: red; font-family: 'Courier New'; }
+  ul li:nth-child(6n+3) { color: green; font-family: Georgia; }
+  ul li:nth-child(6n+4) { color: purple; font-family: Verdana; }
+  ul li:nth-child(6n+5) { color: orange; font-family: Tahoma; }
