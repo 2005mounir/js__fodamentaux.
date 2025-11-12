@@ -1,6 +1,4 @@
-/* =========================
-   STYLE GÉNÉRAL
-========================= */
+
 
 * {
   box-sizing: border-box;
@@ -19,9 +17,7 @@ body {
   padding: 40px 20px;
 }
 
-/* =========================
-   HEADER
-========================= */
+
 .header {
   width: 100%;
   max-width: 900px;
@@ -41,7 +37,7 @@ body {
   font-weight: 700;
 }
 
-/* Barre de recherche */
+
 .header div {
   display: flex;
   align-items: center;
@@ -66,9 +62,7 @@ body {
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
 }
 
-/* =========================
-   SECTION DES LIVRES
-========================= */
+
 
 #books {
   display: grid;
@@ -78,9 +72,7 @@ body {
   max-width: 900px;
 }
 
-/* =========================
-   CARTE DE LIVRE
-========================= */
+
 
 .book-card {
   background: #ffffff;
@@ -111,9 +103,8 @@ body {
   margin-bottom: 8px;
 }
 
-/* =========================
-   DISPONIBILITÉ
-========================= */
+
+
 .book-dispo {
   color: #16a34a;
   font-weight: bold;
@@ -132,9 +123,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* =========================
-   BOUTONS
-========================= */
+
 
 .book-card button {
   padding: 8px 12px;
@@ -145,7 +134,7 @@ body {
   transition: 0.2s ease;
 }
 
-/* Bouton réserver */
+
 .button-res {
   background: linear-gradient(90deg, #3b82f6, #2563eb);
   color: #fff;
@@ -157,7 +146,7 @@ body {
   transform: scale(1.04);
 }
 
-/* Bouton supprimer */
+
 .book-card button:last-child {
   background: #ef4444;
   color: white;
@@ -168,9 +157,7 @@ body {
   transform: scale(1.04);
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+
 
 @media (max-width: 600px) {
   .header {
